@@ -1,0 +1,197 @@
+@font-face { font-family: 'Montserrat'; src: url("../fonts/Montserrat-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Montserrat-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Montserrat-Regular.woff2") format("woff2"), url("../fonts/Montserrat-Regular.woff") format("woff"), url("../fonts/Montserrat-Regular.ttf") format("truetype"), url("../fonts/Montserrat-Regular.svg#svgFontName") format("svg")
+  /* Legacy iOS */ }
+html, body { font-family: 'Open Sans', sans-serif; }
+
+a { text-decoration: none; cursor: pointer; }
+a:hover { text-decoration: none; }
+
+ul { list-style-type: none; }
+
+img.logo { display: inline-block; width: 20px; }
+
+nav.main-navbar { background-color: #ffffff; border-bottom: none; border-radius: 0; margin-bottom: 0; border-bottom: 1px solid #eaeaea; }
+nav.main-navbar .navbar-nav > li.active > a, nav.main-navbar .navbar-nav > li.active > a:focus, nav.main-navbar .navbar-nav > li.active > a:hover, nav.main-navbar .navbar-nav > li.open > a, nav.main-navbar .navbar-nav > li.open > a:focus, nav.main-navbar .navbar-nav > li.open > a:hover { background-color: transparent; color: #294272; }
+nav.main-navbar .navbar-nav li a { text-transform: capitalize; color: #294272; }
+nav.main-navbar .navbar-nav a.dropdown-toggle { text-transform: uppercase; }
+nav.main-navbar a.navbar-brand { color: #294272; font-weight: 600; }
+nav.main-navbar a.navbar-brand:hover { color: #294272; }
+nav.main-navbar a.navbar-brand img { width: 95px; }
+
+.wrapper { padding: 0; }
+
+.download-btn, .discount-block .download-app { text-align: center; color: #003366; background-color: #ffd16a; padding: 8pt 20pt; -o-border-radius: 4px; border-radius: 4px; font-weight: bold; }
+
+.intro-info { padding: 0; background: url("../img/intro.png") no-repeat top center; background-size: cover; padding-top: 70pt; background-position: 0pt -100pt; }
+.intro-info .mobile-photo { position: relative; }
+.intro-info .mobile-photo img:last-of-type { position: absolute; top: 50pt; left: 65pt; }
+.intro-info .intro-description { color: #ffffff; padding-top: 25pt; }
+.intro-info .intro-description .mian-title { font-weight: 300; }
+.intro-info .intro-description .full-description { margin: 20pt 0 30pt; }
+.intro-info .intro-description .available-icons { margin-top: 40pt; display: inline-block; margin-right: 5pt; font-size: 14px; font-weight: normal; }
+.intro-info .intro-description .os { display: inline-block; }
+
+.options-block { margin-top: 200pt; }
+.options-block .option-title { color: #294272; }
+.options-block .option-description { font-size: 14px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.88; color: #333333; padding-right: 35pt; }
+
+.discount-block { background-image: -webkit-linear-gradient(91deg, rgba(149, 192, 237, 0), #92bcea); background-image: linear-gradient(-1deg, rgba(149, 192, 237, 0), #92bcea); text-align: center; margin: 25pt 0; color: #ffffff; padding: 25pt 0; }
+.discount-block > p { font-size: 30px; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); margin: 0; }
+.discount-block .get-off { text-transform: uppercase; font-size: 100px; font-weight: bold; letter-spacing: -2.3px; text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3); margin: 5pt 0; }
+.discount-block .get-off .off { color: #ffd16a; }
+.discount-block .download-app { display: inline-block; margin-top: 30pt; }
+
+.features-block .feature { margin: 60px -15px; clear: both; }
+.features-block .feature-info { padding-top: 90pt; }
+.features-block .feature-info .feature-title { font-size: 50px; font-weight: 300; font-style: normal; color: #294272; letter-spacing: -0.7px; }
+.features-block .feature-info .feature-description { font-size: 16px; font-weight: normal; line-height: 1.88; letter-spacing: -0.5px; margin-top: 18pt; }
+.features-block .feature-img { position: relative; }
+.features-block .feature-img .black-screen { width: 243px; height: 411px; box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.65); background-color: #333333; border: solid 2px #ffffff; position: absolute; top: 63pt; left: -65pt; }
+.features-block .feature:nth-child(3) .feature-img > img:last-of-type { position: absolute; top: 60pt; left: -60pt; }
+.features-block .feature:nth-child(2) .feature-img > div.black-screen:last-of-type { position: absolute; left: 140pt; }
+.features-block .safe-booking-block { margin: 100pt auto; }
+.features-block .safe-booking-block .safe-booking { box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25); padding: 25pt 20pt; }
+.features-block .safe-booking-block .safe-booking-title { border-right: 2px solid #ccc; padding-right: 0; }
+.features-block .safe-booking-block .safe-title { font-size: 36px; font-weight: 300; line-height: 1.17; letter-spacing: -1.5px; color: #294272; margin: 0; }
+.features-block .safe-booking-block .safe-description { font-size: 14px; font-weight: normal; line-height: 1.88; letter-spacing: -0.4px; color: #333333; margin: 0; }
+
+.keys-block { position: relative; }
+.keys-block .key-main-title { font-size: 50px; font-weight: 100; line-height: normal; letter-spacing: -0.7px; text-align: center; color: #71c8f0; margin-bottom: 100pt; }
+.keys-block .dashed { display: block; width: 80px; height: 10px; background-color: #ffd16a; }
+.keys-block .key-title { font-size: 18px; font-weight: bold; line-height: 1.67; letter-spacing: -0.7px; color: #294272; margin-top: 5pt; }
+.keys-block .key-description { font-size: 16px; font-weight: normal; line-height: 1.88; letter-spacing: -0.5px; color: #333333; }
+.keys-block .keys > div:last-of-type { border-left: 1px solid #eaeaea; }
+.keys-block .k1, .keys-block .k2 { padding-left: 0; border-bottom: solid 1px #eaeaea; }
+.keys-block .k2 { border-right: 1px solid #eaeaea; padding-top: 130pt; }
+.keys-block .k2 p.key-description { padding-right: 150pt; }
+.keys-block .k4 { padding-top: 270pt; }
+.keys-block .key-images-container { position: absolute; top: 58%; left: 36%; -webkit-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.keys-block .key-images { position: relative; }
+.keys-block .key-images > img:nth-child(2) { position: absolute; top: 0pt; left: 120pt; }
+.keys-block .key-images > img:nth-child(3) { position: absolute; top: 0pt; left: 240pt; }
+
+.download-block { color: #ffffff; background-color: #71c8f0; text-align: center; margin: 60pt auto; padding: 40pt 0; }
+.download-block .download-title { font-size: 48px; font-weight: 300; line-height: normal; letter-spacing: -0.6px; }
+.download-block .download-description { font-size: 21px; font-weight: normal; font-style: normal; font-stretch: normal; line-height: 1.43; letter-spacing: -0.9px; margin-bottom: 40pt; }
+.download-block .store { display: inline-block; margin-left: auto; margin-right: auto; }
+
+.app-updates { box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.35); margin: 15pt 40pt; padding: 70pt 15pt; position: relative; }
+.app-updates .refresh-img { position: absolute; top: 30px; left: -20em; }
+.app-updates .update-title { font-size: 50px; font-weight: 300; line-height: normal; letter-spacing: -0.5px; color: #294272; text-transform: capitalize; }
+.app-updates .update-description { font-size: 16px; font-weight: normal; line-height: 1.71; letter-spacing: -0.5px; color: #333333; }
+.app-updates .latest-updates { font-weight: bold; margin: 15pt 0 40pt; }
+
+.divider { margin: 40pt 0 5pt; }
+
+.sign-up-block { font-family: 'Montserrat', 'Open Sans', sans-serif; margin-bottom: 30pt; }
+.sign-up-block .sign-up-title { font-size: 30px; font-weight: bold; line-height: normal; color: #465b83; }
+.sign-up-block .sign-up-description { font-size: 20px; font-weight: 300; line-height: 1.4; letter-spacing: 0.1px; color: #233d5e; }
+.sign-up-block input#inputEmail { width: 100%; border-radius: 5px; border: 1px solid #eaeaea; padding: 6pt; margin-top: 25pt; }
+.sign-up-block input#inputSubmit { border: none; font-size: 15px; font-weight: 600; text-align: center; color: #465b83; padding: 6pt 15pt; margin-top: 25pt; }
+
+.mobile-app { font-family: 'Montserrat', 'Open Sans', sans-serif; padding: 20pt 0; background-color: #1a2a3d; margin-bottom: 15pt; position: relative; }
+.mobile-app .mobile-img { display: inline-block; width: 60px; margin-right: 10pt; }
+.mobile-app .mobile-app-title { text-transform: uppercase; font-size: 22px; font-weight: 600; line-height: 1.2; letter-spacing: 7.5px; text-align: left; color: #ffffff; display: inline-block; vertical-align: bottom; width: 138pt; }
+.mobile-app .mobile-app-features { padding-top: 12pt; }
+.mobile-app .mobile-app-features .check-icon { display: inline-block; margin-right: 10pt; }
+.mobile-app .mobile-app-features .mobile-feature { display: inline-block; font-size: 20px; font-weight: 300; letter-spacing: normal; color: #ffffff; }
+.mobile-app .available-app img { width: 100pt; display: inline-block; margin-right: 5pt; }
+.mobile-app .available-now { font-size: 30px; font-weight: 600; color: #fffefe; }
+.mobile-app .gradient { background-image: -webkit-linear-gradient(left, #61b8fa, #1cf78c); background-image: linear-gradient(to right, #61b8fa, #1cf78c); height: 4px; position: absolute; bottom: -1px; left: 0; width: 100%; }
+
+.contact-us .contact-info { font-family: 'Montserrat', 'Open Sans', sans-serif; font-size: 18px; letter-spacing: -0.5px; color: #294272; }
+.contact-us .contact-info p { display: inline-block; }
+.contact-us .social-links li { display: inline-block; margin-left: 5pt; }
+.contact-us .social-links li a { background-color: #294272; color: #ffffff; -o-border-radius: 50%; border-radius: 50%; padding: 4pt 7pt; }
+.contact-us .social-links li:nth-child(2) a { padding: 4pt 9pt; }
+.contact-us .countries-list-block .tajawal-link img { margin: 0 auto 10pt; }
+.contact-us .bottom-navigation { margin: 30pt 0; font-family: 'Montserrat', 'Open Sans', sans-serif; }
+.contact-us .bottom-navigation > li { float: left; margin-right: 7%; margin-bottom: 15pt; }
+.contact-us .bottom-navigation > li > a { padding: 0; font-size: 16px; line-height: normal; letter-spacing: -1px; color: #294272; }
+.contact-us .bottom-navigation > li > a:hover { background-color: transparent; font-weight: 600; }
+.contact-us .bottom-navigation > li.active { border-radius: 14px; border: 1px solid #a259c7; padding: 1px 13px; }
+.contact-us .countries-list { margin: 0; padding: 0; text-align: center; margin-bottom: 10pt; }
+.contact-us .countries-list > li { display: inline-block; margin-right: 15pt; }
+.contact-us .countries-list > li a { font-size: 12px; font-weight: normal; color: #294272; }
+.contact-us .countries-list > li a:hover { font-weight: 600; }
+.contact-us .payments-way { text-align: center; }
+.contact-us .payments-way li { display: inline-block; }
+.contact-us .payments-way li:last-of-type a img { margin-top: 1px; }
+
+/********************************* Media Query ******************************/
+/*for laptops and large screens*/
+@media only screen and (max-width: 1024px) { .intro-info { background-position: 0pt 24pt; padding-bottom: 165pt; }
+  .options-block { margin-top: 15pt; }
+  .features-block .feature:nth-child(2) .feature-img { margin-left: 40pt; }
+  .features-block .feature:nth-child(2) .feature-img > .black-screen:first-of-type { display: none; }
+  .app-updates .refresh-img { width: 100%; left: 0; }
+  .app-updates > div { width: 100%; text-align: left; margin-left: 0; margin: 260pt 0 -30pt; }
+  .sign-up-block input#inputSubmit { padding: 7pt 15pt; font-size: 13px; } }
+/*for tablets and phones*/
+/*for tablets and laptops*/
+/*for tablets only*/
+@media only screen and (min-width: 768px) and (max-width: 991px) { .intro-info { background-position: 0pt 20pt; padding-bottom: 180pt; }
+  .options-block { margin-top: 0; }
+  .discount-block { margin: 25pt 0 0; padding: 25pt 0 50pt; }
+  .features-block .feature { margin: 20px -15px 50px; }
+  .features-block .feature:first-of-type .img-responsive:first-of-type, .features-block .feature:nth-child(3) .img-responsive:first-of-type { float: right; }
+  .features-block .feature:first-of-type .black-screen, .features-block .feature:nth-child(3) .black-screen { left: 18pt; }
+  .features-block .feature:first-of-type .feature-img > img:last-of-type, .features-block .feature:nth-child(3) .feature-img > img:last-of-type { left: 0; }
+  .features-block .feature:nth-child(2) .feature-img { margin-left: 0; }
+  .features-block .feature:nth-child(2) .black-screen:first-of-type { display: none; }
+  .features-block .feature:nth-child(2) .feature-img > div.black-screen:last-of-type { left: 75pt; }
+  .features-block .safe-booking-block { margin: 100pt auto 30pt; }
+  .features-block .safe-booking-block img.img-responsive { margin-top: 18pt; }
+  .keys-block .key-images-container { display: none; }
+  .keys-block .k1, .keys-block .k2, .keys-block .k2 { padding-left: 15px; border: none; padding-top: 0; }
+  .keys-block .k2 p.key-description { padding-right: 0; }
+  .keys-block .keys > div:last-of-type { border-left: none; }
+  .keys-block .k4 { padding-top: 0pt; }
+  .keys-block .key { margin-bottom: 20pt; }
+  .keys-block .key-main-title { margin-bottom: 50pt; }
+  .download-block { margin: 10pt auto 40pt; }
+  .app-updates { padding: 250pt 15pt 30pt; }
+  .app-updates .refresh-img { left: 3px; }
+  .app-updates > div { margin: unset; }
+  .available-app { padding-top: 20pt; text-align: center; } }
+/*for phones and xsmall screens*/
+@media screen and (max-width: 767px) { .intro-info { background-position: 0pt -150pt; padding-bottom: 309pt; }
+  .intro-info .intro-description { text-align: center; padding-top: 50pt; }
+  .intro-info .mobile-photo img:last-of-type { left: 30pt; }
+  .discount-block { margin: 25pt 0 0; padding: 70pt 0; }
+  .options-block { margin-top: -240pt; text-align: center; }
+  .options-block .option-description { padding-right: 0; margin-bottom: 25pt; }
+  .options-block img { margin: 0 auto; }
+  .features-block { text-align: center; }
+  .features-block .safe-booking-block { margin: 100pt auto 20pt; }
+  .features-block .safe-booking-block .safe-booking-title { border-right: none; border-bottom: 1px solid #eaeaea; }
+  .features-block .safe-booking-block .safe-title { padding-bottom: 10pt; }
+  .features-block .safe-booking-block .safe-description { margin-top: 20pt; }
+  .features-block .feature { margin: unset; margin-bottom: 25pt; }
+  .features-block .feature .feature-img > img { margin: 0 auto; }
+  .features-block .feature-info { padding-top: 0; }
+  .features-block .feature:nth-child(3) .feature-img > img:last-of-type { top: 57pt; left: -6pt; }
+  .features-block .feature:nth-child(2) .feature-img { margin-left: 0pt; }
+  .keys-block .key-main-title { margin-bottom: 40pt; }
+  .keys-block .key { margin-bottom: 25pt; }
+  .keys-block .k1, .keys-block .k2 { padding-left: 15px; border-bottom: unset; }
+  .keys-block .k2 { border-right: unset; padding-top: 0; }
+  .keys-block .k2 p.key-description { padding-right: 0pt; }
+  .keys-block .k4 { padding-top: 0; }
+  .safe-icon img { margin: 0 auto 15pt; }
+  .download-block { margin: 0 auto 50pt; }
+  .download-block .store img { width: 200pt; }
+  .contact-us .social-media { float: left !important; }
+  .contact-us .social-media .social-links { padding-left: 0; margin-top: 15pt; margin-bottom: -7pt; margin-left: -5pt; }
+  .app-updates { margin: 15pt 0pt; padding: 150pt 0pt 40pt; text-align: center; }
+  .app-updates .refresh-img { left: 0; }
+  .app-updates > div { margin: 130pt 0 -6pt; }
+  .sign-up-block input#inputEmail { margin-top: 15pt; }
+  .sign-up-block input#inputSubmit { display: block; width: 100%; margin-top: 10pt; }
+  .mobile-app .mobile-app-features { padding-left: 0; padding-top: 20pt; }
+  .key-images-container, .black-screen { display: none; } }
+@media screen and (max-width: 500px) { .app-updates > div { margin: 25pt 0 -5pt; } }
+/********************************* Media Query ******************************/
+
+/*# sourceMappingURL=style-en.css.map */
